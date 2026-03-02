@@ -225,3 +225,7 @@ textarea {
     grid-template-columns: 1fr;
   }
 }
+
+.sitemap-link {
+  margin-top: 1rem;
+}
