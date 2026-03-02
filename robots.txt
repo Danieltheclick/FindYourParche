@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://parchemedellin.com/sitemap.xml

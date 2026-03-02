@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact ParcheMedellin to collaborate, ask for personalized recommendations, or share your Medellín experience." />
+  <title>Contact | ParcheMedellin</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a class="logo" href="index.html">ParcheMedellin</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav id="primary-nav" class="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="things-to-do.html">Things to Do</a></li>
+          <li><a href="nightlife.html">Nightlife</a></li>
+          <li><a href="digital-nomads.html">Digital Nomads</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    <h1>Contact ParcheMedellin</h1>
+    <p class="page-intro">Have questions or want custom recommendations? Reach out.</p>
+
+    <section class="content-block">
+      <form class="contact-form" action="#" method="post">
+        <div class="form-field">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required />
+        </div>
+
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required />
+        </div>
+
+        <div class="form-field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+        </div>
+
+        <button class="btn" type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h2>ParcheMedellin</h2>
+        <p>Email: <a href="mailto:hola@parchemedellin.com">hola@parchemedellin.com</a></p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <a href="index.html">Back to home</a>
+      </div>
+    </div>
+        <p class="sitemap-link"><a href="sitemap.xml">Sitemap</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
